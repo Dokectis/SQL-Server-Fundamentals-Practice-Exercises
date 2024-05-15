@@ -1,0 +1,1 @@
+--get the full name and order total for every customer named in Sydney 
