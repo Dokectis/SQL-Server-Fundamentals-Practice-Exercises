@@ -14,7 +14,6 @@ select
 	per_person_price
 from dbo.additional_service
 
-
 -------------------------------------------------------------------------------------------------
 --find the rows where the service name is 'Catering - Lunch'
 
@@ -24,7 +23,6 @@ select
 	per_person_price
 from dbo.additional_service
 where srvc_name = 'Catering - Lunch'
-
 
 -------------------------------------------------------------------------------------------------
 --find the rows where the service name is not 'Catering - Lunch'
@@ -45,7 +43,6 @@ select
 from dbo.additional_service
 where srvc_name <> 'Catering - Lunch'
 
-
 -------------------------------------------------------------------------------------------------
 --find the rows where the service name is 'Gift Basket Delivery - Small', 'Gift Basket Delivery - Medium', or 'Gift Basket Delivery - Large'
 
@@ -64,7 +61,6 @@ select
 	per_person_price
 from dbo.additional_service
 where srvc_name NOT IN ('Gift Basket Delivery - Small', 'Gift Basket Delivery - Medium', 'Gift Basket Delivery - Large')
-
 -------------------------------------------------------------------------------------------------
 --find the rows where the service name starts with 'Gift Basket Delivery'
 
@@ -75,7 +71,6 @@ select
 from dbo.additional_service
 where srvc_name IN ('Gift Basket Delivery - Small', 'Gift Basket Delivery - Medium', 'Gift Basket Delivery - Large')
 
-
 -------------------------------------------------------------------------------------------------
 --find the rows where the service name contains 'Party'
 
@@ -85,7 +80,6 @@ select
 	per_person_price
 from dbo.additional_service
 where srvc_name LIKE '%Party%'
-
 
 -------------------------------------------------------------------------------------------------
 --find the rows where the service name does not start with 'Gift Basket Delivery'

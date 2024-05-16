@@ -51,7 +51,6 @@ WHERE srvc_name LIKE 'Catering%'
 	-- OR srvc_name LIKE 'Two Trees Tasting Party'
 
 -- The query returns a complete set of results from the table where the conditions are met.
-
 -------------------------------------------------------------------------------------------------
 --find the rows for services that cost less than $30 that are either catering or gift baskets
 
