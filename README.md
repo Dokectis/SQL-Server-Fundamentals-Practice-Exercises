@@ -26,7 +26,7 @@ bash
 
 
 **Copy code:**
-git clone https://github.com/your-username/sql-fundamentals-practice.git
+git clone [https://github.com/your-username/sql-fundamentals-practice.git](https://github.com/Dokectis/SQL-Server-Fundamentals-Practice-Exercises.git)
 
 Open the exercises folder in your preferred SQL editor (SSMS or Azure Data Studio).
 Complete the exercises as instructed in the course.
