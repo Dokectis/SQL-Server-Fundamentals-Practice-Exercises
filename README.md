@@ -1,48 +1,52 @@
-**SQL Server Fundamentals Practice Exercises**
+# SQL Server Fundamentals - Mastering Essential Query Techniques 🚀
 
-_**Overview**_
-This repository contains practice exercises based on the LinkedIn Learning course SQL Server Fundamentals: Master Basic Query Techniques.
-Each exercise is designed to reinforce the fundamental concepts covered in the course.
-+ Add some bonuses for SQL Server
+This repository is dedicated to mastering the fundamental concepts and hands-on skills required to effectively query and manage data within SQL Server. It is designed to reinforce the essential techniques covered in the LinkedIn Learning course.
 
-**Course Information:**
-Course: SQL Server Fundamentals: Master Basic Query Techniques
-Instructor: Julianne Thouin.
-Platform: LinkedIn Learning.
-Link: https://www.linkedin.com/learning/sql-server-fundamentals-master-basic-query-techniques/filtering-on-multiple-conditions-in-sql
+---
 
+### 🎯 Objective
+To provide a practical sandbox for practicing basic to advanced query techniques, focusing on writing clean, efficient, and well-structured SQL code for real-world scenarios.
 
-**Local Setup:**
-To work on these exercises locally, make sure you have the following setup on your machine:
+### 🛠 Tech Stack & Tools
+* **Database Engine:** SQL Server 2022 Developer Edition
+* **Management & Querying:** SQL Server Management Studio (SSMS), Azure Data Studio
+* **Version Control:** Git & GitHub
 
-SQL Server Management Studio (SSMS)
-Azure Data Studio
-SQL Server 2022 Developer Edition
-Notepad (or any text editor of your choice)
-Git and GitHub configured on your machine
-Instructions:
-Clone this repository to your local machine using Git.
-bash
+### 📚 Course Information
+This repository is aligned with the following course:
+* **Course:** [SQL Server Fundamentals: Master Basic Query Techniques](https://www.linkedin.com/learning/sql-server-fundamentals-master-basic-query-techniques/)
+* **Instructor:** [Julianne Thouin](https://www.linkedin.com/learning/instructors/julianne-thouin)
+* **Platform:** LinkedIn Learning
 
+---
 
-**Copy code:**
-git clone [https://github.com/your-username/sql-fundamentals-practice.git](https://github.com/Dokectis/SQL-Server-Fundamentals-Practice-Exercises.git)
+### 🚀 Getting Started
 
-Open the exercises folder in your preferred SQL editor (SSMS or Azure Data Studio).
-Complete the exercises as instructed in the course.
-Save your work regularly.
-Optionally, commit your changes to Git and push to your GitHub repository to track your progress.
-Folder Structure
+#### Local Setup
+1.  **Clone this repository** to your local machine:
+    ```bash
+    git clone [https://github.com/Dokectis/SQL-Server-Fundamentals-Practice-Exercises.git](https://github.com/Dokectis/SQL-Server-Fundamentals-Practice-Exercises.git)
+    ```
+2.  **Open the exercises** in your preferred SQL editor (SSMS or Azure Data Studio).
+3.  **Complete the exercises** as instructed within the course, focusing on writing efficient queries.
 
-Exercises: Contains individual exercise files.
+### 🌟 Senior Engineer Bonuses (Advanced SQL Server Concepts)
 
-Documentation: Supplementary documentation from the course.
-Notes
-Feel free to modify or extend the exercises to further enhance your learning.
-If you encounter any issues or have questions, please open an issue in this repository.
+As a Senior Data Engineer, I've extended this foundational repository with advanced concepts and best practices to show how basic SQL is scaled in enterprise environments.
 
+#### 🏗 Business Intelligence & Advanced Analytics
+* **Window Functions (CTEs):** Practice complex analytical queries using `ROW_NUMBER()`, `RANK()`, `LEAD()`, and `LAG()` within Common Table Expressions (CTEs) to simplify code and improve readability.
+* **Hierarchical Data Processing:** Explore recursive CTEs to process hierarchical structures like organization charts or bill-of-materials.
 
-**Credits:**
-LinkedIn Learning for providing the course content.
-[Julianne Thouin- Experienced Database Engineer] for delivering comprehensive SQL training.
-https://www.linkedin.com/learning/instructors/julianne-thouin
+#### 📈 Database Optimization & Performance Tuning
+* **Query Performance Analysis:** Go beyond simple querying and learn how to use **Execution Plans** in SSMS to identify bottlenecks, table scans, and expensive operations.
+* **Index Tuning Fundamentals:** Understand the impact of Clustered vs. Non-Clustered indexes on query performance and how to create efficient index strategies.
+
+#### 🔧 Best Practices for Clean Code
+* **T-SQL Formatting Standards:** Learn and apply a consistent, enterprise-standard formatting style for all SQL scripts to ensure maintainability.
+* **Efficient JOIN Strategies:** Practice using proper JOIN types (`INNER`, `LEFT`, `RIGHT`, `FULL`) and understand their performance implications when dealing with large datasets.
+
+### 👨‍💻 About the Author
+**Carlos Araque L.**
+Data Engineer with 10+ years of experience delivering enterprise-scale data platforms across Australia and internationally.
+*Renewed Databricks Certified Data Engineer Associate (2026)* | *Qiskit Advocate*.
